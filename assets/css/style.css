@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Replaced div tag with semantic header, since this code is at the top of the screen, effecting font family,padding, and colors. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +24,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Replaced div tag with semantic nav. This code styles the navigation bar at the top of the screen effecting font size, font family, and margin */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,6 +33,7 @@ body {
     font-size: 20px;
 }
 
+/* Replaced div with nav so the stylesheet could still correctly communicate with the adjusted html file. Display none removes the bullet points of the list and makes them inline (overriding the natural block state of list items) */
 .header nav ul {
     list-style-type: none;
 }
@@ -40,16 +42,17 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Styles link text color and remove the underline */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Styles all p text to this font size */
 p {
     font-size: 16px;
 }
 
+/* Styles size of main, big image and shows its source */
 .hero {
     height: 800px;
     width: 100%;
@@ -86,6 +89,7 @@ p {
     background-color: #2589bd;
 }
 
+/* Combined the classes in single-line for DRY code */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -101,6 +105,7 @@ p {
     color: #ffffff;
 } */
 
+/* Backed up to the parent "benefit" class (from .benefit-lead, etc) to apply the styling for DRY code */
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -121,7 +126,7 @@ p {
     text-align: center;
 } */
 
-/* TODO: Ask if this grouping is preferred (Dry Code) */
+/* Backed up to parent "benefit" class to apply image styling (block display and size) to the three child sections for DRY code */
 .benefits img {
     display: block;
     margin: 10px auto;
@@ -146,7 +151,7 @@ p {
     max-width: 150px;
 } */
 
-/* TODO: Combined to share code (Dry code) */
+/* Combined classes inline to for DRY code */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -174,8 +179,12 @@ p {
     color: #ffffff;
 } */
 
-/* TODO: Ask can the following 3 be combined? */
-.search-engine-optimization img {
+/* Backed up to parent "content" class to apply img styling for following 3 child sections */
+.content img {
+    max-height: 200px;
+}
+
+/* .search-engine-optimization img {
     max-height: 200px;
 }
 
@@ -185,9 +194,9 @@ p {
 
 .social-media-marketing img {
     max-height: 200px;
-}  
+}   */
 
-/* TODO: Combined to share code (Dry code) */
+/* Backed up to parent "content" class to apply styling to all h2 text in child sections for the margin and font size */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -207,6 +216,7 @@ p {
     font-size: 36px;
 } */
 
+/*  */
 .footer {
     padding: 30px;
     clear: both;
