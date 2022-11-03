@@ -19,7 +19,7 @@ N/A
 
 ![Homepage-Screenshot](assets/images/01-html-css-git-homework-demo.png)
 
-To see the page in action, visit it [here](file:///Users/chelsearunacres/bootcamp/challenges/horiseon-accesibility-refactor/index.html#social-media-marketing)
+To see the page in action, visit it [here](https://chelsrunnn.github.io/horiseon-accesibility-refactor/)
 
 
 ## Credits
